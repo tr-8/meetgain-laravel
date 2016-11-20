@@ -5,5 +5,40 @@
 @endsection
 
 @section('content')
-    <h1>here should be the content</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Sign Up</h3>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="email"> Your E-Mail</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="first_name"> Your First Name</label>
+                    <input type="text" name="first_name" id="first_name">
+                </div>
+                <div class="form-group">
+                    <label for="password"> Your Password</label>
+                    <input type="text" name="password" id="password">
+                </div>
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <h3>Sign In</h3>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="email"> Your E-Mail</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <label for="password"> Your Password</label>
+                <input type="text" name="password" id="password">
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+    </div>
+
 @endsection
